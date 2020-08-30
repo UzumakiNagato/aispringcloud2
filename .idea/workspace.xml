@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="704cd6ae-428c-4524-8de9-05b1c8bfa89f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/configclient.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/configclient.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +89,20 @@
       <recent name="D:\aispringcloud\eurekaclient\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigServerApplication">
+  <component name="RunManager" selected="Spring Boot.ConfigClientApplication">
+    <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="configclient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.southwind.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.southwind.ConfigClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="configserver" />
       <extension name="coverage">
@@ -141,19 +155,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProviderApplication2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="eurekaclient" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.southwind.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.southwind.ProviderApplication2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="southwind" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="eurekaserver" />
       <extension name="coverage">
@@ -170,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ConfigClientApplication" />
         <item itemvalue="Spring Boot.ConfigServerApplication" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
         <item itemvalue="Spring Boot.NativeConfigCloudApplication" />
         <item itemvalue="Spring Boot.NativeConfigServerApplication" />
-        <item itemvalue="Spring Boot.ProviderApplication2" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +225,7 @@
       <workItem from="1598434146675" duration="6769000" />
       <workItem from="1598775155912" duration="263000" />
       <workItem from="1598776649930" duration="13000" />
-      <workItem from="1598776723447" duration="8365000" />
+      <workItem from="1598776723447" duration="9929000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1598796898875</created>
@@ -254,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598798880437</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update">
+      <created>1598799482584</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598799482584</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,10 +302,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="579" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1598253352503" />
-    <state x="639" y="20" key="CommitChangelistDialog2" timestamp="1598798878283">
+    <state x="639" y="20" key="CommitChangelistDialog2" timestamp="1598799481116">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="639" y="20" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598798878283" />
+    <state x="639" y="20" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598799481116" />
     <state x="684" y="151" key="FileChooserDialogImpl" timestamp="1598783910915">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -314,38 +322,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="775" y="133" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1598783655241" />
-    <state width="814" height="312" key="GridCell.Tab.0.bottom" timestamp="1598799453922">
+    <state width="813" height="282" key="GridCell.Tab.0.bottom" timestamp="1598800760233">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="814" height="312" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598799453922" />
-    <state width="814" height="312" key="GridCell.Tab.0.center" timestamp="1598799453922">
+    <state width="813" height="282" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598800760233" />
+    <state width="813" height="282" key="GridCell.Tab.0.center" timestamp="1598800760233">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="814" height="312" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598799453922" />
-    <state width="814" height="312" key="GridCell.Tab.0.left" timestamp="1598799453922">
+    <state width="813" height="282" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598800760233" />
+    <state width="813" height="282" key="GridCell.Tab.0.left" timestamp="1598800760233">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="814" height="312" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598799453922" />
-    <state width="814" height="312" key="GridCell.Tab.0.right" timestamp="1598799453922">
+    <state width="813" height="282" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598800760233" />
+    <state width="813" height="282" key="GridCell.Tab.0.right" timestamp="1598800760233">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="814" height="312" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598799453922" />
-    <state width="814" height="312" key="GridCell.Tab.1.bottom" timestamp="1598799453922">
+    <state width="813" height="282" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598800760233" />
+    <state width="813" height="282" key="GridCell.Tab.1.bottom" timestamp="1598800760233">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="814" height="312" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598799453922" />
-    <state width="814" height="312" key="GridCell.Tab.1.center" timestamp="1598799453922">
+    <state width="813" height="282" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598800760233" />
+    <state width="813" height="282" key="GridCell.Tab.1.center" timestamp="1598800760233">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="814" height="312" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1598799453922" />
-    <state width="814" height="312" key="GridCell.Tab.1.left" timestamp="1598799453922">
+    <state width="813" height="282" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1598800760233" />
+    <state width="813" height="282" key="GridCell.Tab.1.left" timestamp="1598800760233">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="814" height="312" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1598799453922" />
-    <state width="814" height="312" key="GridCell.Tab.1.right" timestamp="1598799453922">
+    <state width="813" height="282" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1598800760233" />
+    <state width="813" height="282" key="GridCell.Tab.1.right" timestamp="1598800760233">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="814" height="312" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1598799453922" />
+    <state width="813" height="282" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1598800760233" />
     <state x="407" y="182" key="IDE.errors.dialog" timestamp="1598783919885">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

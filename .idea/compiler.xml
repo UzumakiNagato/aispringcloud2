@@ -10,6 +10,7 @@
         <module name="zuul" />
         <module name="eurekaserver" />
         <module name="feign" />
+        <module name="configserver" />
         <module name="nativeconfigserver" />
         <module name="hystrix" />
         <module name="ribbon" />
@@ -24,6 +25,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="aispringcloud" options="-parameters" />
       <module name="comsumer" options="-parameters" />
+      <module name="configserver" options="-parameters" />
       <module name="eurekaclient" options="-parameters" />
       <module name="eurekaserver" options="-parameters" />
       <module name="feign" options="-parameters" />

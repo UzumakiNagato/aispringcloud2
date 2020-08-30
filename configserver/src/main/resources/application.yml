@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          url: https://github.com/UzumakiNagato/aispringcloud2.git
+          uri: https://github.com/UzumakiNagato/aispringcloud2.git
           searchPaths: config
           username: UzumakiNagato
           password: Uzumaki12499921

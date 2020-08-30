@@ -17,6 +17,7 @@
         <module name="restTemplate" />
         <module name="comsumer" />
         <module name="nativeconfigcloud" />
+        <module name="configclient" />
         <module name="eurekaclient" />
       </profile>
     </annotationProcessing>
@@ -25,6 +26,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="aispringcloud" options="-parameters" />
       <module name="comsumer" options="-parameters" />
+      <module name="configclient" options="-parameters" />
       <module name="configserver" options="-parameters" />
       <module name="eurekaclient" options="-parameters" />
       <module name="eurekaserver" options="-parameters" />

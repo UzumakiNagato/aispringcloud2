@@ -22,6 +22,7 @@
         <module>nativeconfigserver</module>
         <module>nativeconfigcloud</module>
         <module>configserver</module>
+        <module>configclient</module>
     </modules>
 
     <!--声明这是spring boot项目-->
